@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #8647a1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container .social {
+  margin: 25px 25px;
+  min-width: 150px;
+}
+
+.container .social i {
+  font-size: 27.5px;
+}
+
+.container .social h1 {
+  font-weight: 400;
+  font-size: 35px;
+  margin: 10px 0px;
+}
+
+.container .social p {
+  font-size: 12px;
+}
+
+
